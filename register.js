@@ -83,7 +83,7 @@ $('#submit').click(function() {
 		// alert('index 0');
 
 		//______________________________________________________________________________POST DATA
-		/*	$.ajax({
+			$.ajax({
 	    type: "POST",
 	    url: "http://127.0.0.1:8080/api/person/",
 	    data: JSON.stringify({"person_img": null,"First_name": $('#fname').val(),"Last_name": $('#lname').val(),"organization": $('#org').val(),"designation": $('#des').val(),"date_of_birth": $('#datepicker').val(),"state": $('#state').val(),"city": $('#city').val(),"country": 1}),
@@ -99,7 +99,7 @@ $('#submit').click(function() {
 	        console.log(data.responseText);
 	
 	    }
-		});*/
+		});
 
 		
 		// alert($('#fname').val())
